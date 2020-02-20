@@ -144,8 +144,9 @@ Set-WebApplicationProxyConfiguration -UpgradeConfigurationVersion
 ```
 
 This will complete the upgrade of the WAP servers.
-
-
+>[!NOTE]
+> The WAP version will still be 2016 after the upgrade to AD FS 2019.
+ 
 > [!NOTE] 
 > A known PRT issue exists in AD FS 2019 if Windows Hello for Business with a Hybrid Certificate trust is performed. You may encounter this error in ADFS Admin event logs: Received invalid Oauth request. The client 'NAME' is forbidden to access the resource with scope 'ugs'. 
 > To remediate this error: 
